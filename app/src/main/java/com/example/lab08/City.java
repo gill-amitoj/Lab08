@@ -1,8 +1,8 @@
 package com.example.lab08;
 
 public class City {
-    private String city;
-    private String province;
+    private String city;// name of the city
+    private String province;// name of the province
 
     public City(String city, String province){
         this.city = city;
@@ -11,11 +11,11 @@ public class City {
 
     public String getCityName(){
         return this.city;
-    }
+    }// get the name of the city
 
     public String getProvinceName(){
         return this.province;
-    }
+    }// get the name of the province
 
     // To make "contains" work properly in tests
     @Override
